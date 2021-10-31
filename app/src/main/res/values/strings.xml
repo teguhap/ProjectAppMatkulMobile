@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Project App Matkul Mobile</string>
+    <string name="nama">Nama</string>
+    <string name="npm">NPM</string>
+    <string name="jenis_kelamin">Jenis Kelamin :</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="belajar_pemrograman">Belajar Pemrograman</string>
+    <string name="prodi">Prodi</string>
+    <string name="membaca_buku">Membaca Buku</string>
+    <string name="prosses">Prosses</string>
+    <string name="data_mahasiswa">Data Mahasiswa</string>
+    <string-array name="list_prodi">
+        <item>Sistem Informasi</item>
+        <item>Teknik Informatika</item>
+    </string-array>
 </resources>
