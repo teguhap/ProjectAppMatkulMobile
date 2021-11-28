@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn1 = findViewById<Button>(R.id.btn1)
         val btn2 = findViewById<Button>(R.id.btn2)
+        val btnKaryawan = findViewById<Button>(R.id.btnKaryawan)
         val tv1 = findViewById<TextView>(R.id.tv1)
 
 
@@ -23,6 +24,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SecondActivity :: class.java)
             startActivity(intent)
         }
+
+        btnKaryawan.setOnClickListener {
+            val intent = Intent(this,KaryawanForm:: class.java)
+            startActivity(intent)
+        }
+
 
         btn1.setOnClickListener {
             Toast.makeText(this,"Ini proses dari klik tombol", Toast.LENGTH_SHORT).show()

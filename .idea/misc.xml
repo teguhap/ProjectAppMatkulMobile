@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Selly Nursyifa/AndroidStudioProjects/ProjectAppMatkulMobile/app/src/main/res/layout/activity_karyawan.xml" value="0.4" />
+        <entry key="..\:/Users/Selly Nursyifa/AndroidStudioProjects/ProjectAppMatkulMobile/app/src/main/res/layout/activity_karyawanform.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Selly Nursyifa/AndroidStudioProjects/ProjectAppMatkulMobile/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Selly Nursyifa/AndroidStudioProjects/ProjectAppMatkulMobile/app/src/main/res/layout/activity_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Selly Nursyifa/AndroidStudioProjects/ProjectAppMatkulMobile/app/src/main/res/layout/activity_second.xml" value="0.4" />
       </map>
     </option>
   </component>

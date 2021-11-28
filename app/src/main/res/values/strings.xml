@@ -10,8 +10,22 @@
     <string name="membaca_buku">Membaca Buku</string>
     <string name="prosses">Prosses</string>
     <string name="data_mahasiswa">Data Mahasiswa</string>
+    <string name="namaKaryawan">Nama</string>
+    <string name="unit_kerja">Unit Kerja</string>
     <string-array name="list_prodi">
         <item>Sistem Informasi</item>
         <item>Teknik Informatika</item>
+    </string-array>
+
+    <string-array name="jumlah_anak">
+        <item>Tidak punya Anak</item>
+        <item>lebih dari 3 dan kurang dari 5</item>
+        <item>lebih dari 5 dan kurang dari 8</item>
+    </string-array>
+
+    <string-array name="lama_bekerja">
+        <item>Kurang dari 1 Tahun</item>
+        <item>lebih dari 1 Tahun dan kurang dari 5 Tahun </item>
+        <item>lebih dari 5 tahun </item>
     </string-array>
 </resources>
