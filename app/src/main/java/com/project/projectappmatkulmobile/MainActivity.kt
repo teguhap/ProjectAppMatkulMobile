@@ -7,6 +7,9 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import android.view.Menu
+import android.view.MenuItem
+
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
@@ -38,4 +41,20 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+            menuInflater.inflate(R.menu.option_menu_main,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.menuTambah -> Intent(this,SecondActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
 }
+

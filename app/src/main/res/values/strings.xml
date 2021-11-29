@@ -10,6 +10,7 @@
     <string name="membaca_buku">Membaca Buku</string>
     <string name="prosses">Prosses</string>
     <string name="data_mahasiswa">Data Mahasiswa</string>
+    <string name="tambah">tambah</string>
     <string name="namaKaryawan">Nama</string>
     <string name="unit_kerja">Unit Kerja</string>
     <string-array name="list_prodi">

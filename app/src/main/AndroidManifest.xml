@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectAppMatkulMobile" >
         <activity
-            android:name=".KaryawanActivity"
+            android:name=".KaryawanForm"
             android:exported="false" />
         <activity
             android:name=".SecondActivity"
