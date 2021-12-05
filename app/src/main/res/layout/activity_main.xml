@@ -10,21 +10,21 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="tombol menu satu"/>
+        android:text="@string/menu_satu"/>
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="tombol menu dua"/>
+        android:text="@string/tambah_data_mahasiswa"/>
 
     <Button
         android:id="@+id/btnKaryawan"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Menu Karyawan"/>
+        android:text="@string/menu_karyawan"/>
 
     <TextView
         android:id="@+id/tv1"

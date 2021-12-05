@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <domain-config cleartextTrafficPermitted="true"
+        tools:ignore="NetworkSecurityConfig">
+        <domain includeSubdomains="true">
+            http://192.168.43.55/
+        </domain>
+    </domain-config>
+
+    <base-config
+        cleartextTrafficPermitted="true"
+        />
+
+
+</network-security-config>
