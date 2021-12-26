@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         val btn1 = findViewById<Button>(R.id.btn1)
         val btn2 = findViewById<Button>(R.id.btn2)
         val btnKaryawan = findViewById<Button>(R.id.btnKaryawan)
-        val tv1 = findViewById<TextView>(R.id.tv1)
 
 
         btn2.setOnClickListener {
@@ -35,8 +34,8 @@ class MainActivity : AppCompatActivity() {
 
 
         btn1.setOnClickListener {
-            Toast.makeText(this,"Ini proses dari klik tombol", Toast.LENGTH_SHORT).show()
-            tv1.text = "Berubah setelah tombol di kKlik"
+            val intent = Intent(this,ViewMahasiswaActivity:: class.java)
+            startActivity(intent)
 
         }
 

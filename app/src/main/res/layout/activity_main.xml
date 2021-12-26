@@ -12,7 +12,7 @@
         android:id="@+id/btn1"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/menu_satu"/>
+        android:text="@string/data_mahasiswa"/>
 
     <Button
         android:id="@+id/btn2"
@@ -26,14 +26,5 @@
         android:layout_height="wrap_content"
         android:text="@string/menu_karyawan"/>
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
